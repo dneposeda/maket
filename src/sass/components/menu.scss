@@ -1,0 +1,22 @@
+.menu {
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    &__item {
+        list-style: none;
+    }
+
+    &__link {
+        display: block;
+        padding: 15px 11px;
+        text-decoration: none;
+        font-size: 13px;
+        line-height: 1.2
+    }
+
+    &__link--grey {
+        color: $menu-font-color;
+    }
+    
+}

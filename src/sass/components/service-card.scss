@@ -1,0 +1,67 @@
+.service-card {
+        margin-bottom: -82px;
+
+    &__title{
+        font-family: 'montserrat';
+        font-weight: 700;
+        font-size: 18px;
+        color: $service-header-font-color;
+        text-transform: uppercase;
+        margin: 0 0 9px;
+    }
+
+    &__subtitle {
+        display: block;
+        font-family: 'montserrat';
+        font-weight: 700;
+        font-size: 13px;
+        color: $service-header-font-color;
+        margin-bottom: 22px;
+    }
+
+    &__text {
+        font-size: 13px;
+        line-height: 1.8;
+        color: $service-text-font-color;
+    }
+
+    &__bg {
+        background-repeat: no-repeat;
+        background-position: top center;
+        height: 236px;
+
+        &--finan {
+            background-image: url(../assets/img/service-01.jpg);
+        }
+
+        &--stocks {
+            background-image: url(../assets/img/service-02.jpg);
+        }
+        &--cash {
+            background-image: url(../assets/img/service-03.jpg);
+        }
+        &--invest {
+            background-image: url(../assets/img/service-04.jpg);
+        }
+        &--personal {
+            background-image: url(../assets/img/service-05.jpg);
+        }
+        &--insurance {
+            background-image: url(../assets/img/service-06.jpg);
+        }
+    }
+
+    &__block {
+        border-width: 1px;
+        border-style: solid;
+        border-image: linear-gradient(to bottom,#d9d9d9,transparent) 1 48%;
+        padding: 25px 19px;
+        width: 310px;
+        margin: 0 auto;
+        background-color: white;
+        transform: translateY(-89px);
+    }
+
+
+}
+
