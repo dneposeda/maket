@@ -1,6 +1,6 @@
 .footer{
     background-color: $bg-footer;
-    padding: 86px 0 44px;
+    padding-top: 86px;
 
     &__title {
         text-transform: uppercase;
@@ -8,11 +8,25 @@
         font-family: 'montserrat';
         font-weight: 600;
         color: $white;
-        margin-bottom: 31px;
+        margin-bottom: 30px;
+        letter-spacing: -0.2px;
 
         &--link {
             margin-bottom: 23px;
         }
+    }
+
+    &__item {
+        
+        &--communication {
+            margin-left: -2px;
+        }
+
+        &--about {
+            margin-left: -1px;
+        }
+
+
     }
 
     &-userfullink {
@@ -50,31 +64,36 @@
     &-menu {
         background-color: $bg-footer-menu;
         padding: 10px 0;
+        margin-top: 43px;
     }
 }
 
 
 .subscriptions {
-    margin-bottom: 48px;
+    margin-bottom: 46px;
     
     &__desc {
         color: $footer-link;;
         font-size: 13px;
-        line-height: 1.5;
-        margin-bottom: 18px;
+        line-height: 1.6;
+        letter-spacing: 0.2px;
+        margin-bottom: 16px;
     }
 
     &__political {
         font-size: 12px;
         color: $menu-font-color;
+        letter-spacing: 0.15px;
     }
 
 }
 
 .about__text {
     color: $footer-link;
-    font-size: 13px;
-    line-height: 1.7;
+    font-size: 12px;
+    line-height: 1.8;
+    letter-spacing: 0.6px;
+    margin: 0 0 15px;
 }
 
 

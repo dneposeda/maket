@@ -1,5 +1,5 @@
 .service {
-    padding-top: 65px;
+    padding-top: 70px;
     padding-bottom: 90px;
     
     &__title--center {
@@ -11,9 +11,11 @@
         text-transform: uppercase;
         font-size: 22px;
         font-family: 'montserrat';
-        font-weight: 600;
+        font-weight: 700;
         color: $service-header-font-color;
         margin-bottom: 20px;
+        letter-spacing: -0.4px;
+        padding-right: 14px;
 
         &--center {
             text-align: center;
@@ -24,6 +26,8 @@
     &__desc {
         font-size: 14px;
         color: $main-color;
+        padding-right: 14px;
+        letter-spacing: 0.21px;
     }
 }
 

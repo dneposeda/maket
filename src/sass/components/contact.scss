@@ -11,15 +11,17 @@
 
 .contact__link {
     display: flex;
-    padding: 10px 0;
+    padding: 8px 0 11px;
     text-decoration: none;
     color: $footer-link;
     transition: color 0.3s;
     font-size: 13px;
     line-height: 1.7;
+    letter-spacing: 0.2px;
 
     svg {
-        margin-right: 10px;
+        margin-right: 11px;
+        margin-top: 4px;
     }
 
     &:hover {
@@ -31,6 +33,20 @@
         }
 
     }
+
+    &--phone {
+        padding-bottom: 15px;
+    }
+
+    &--address {
+        width: 210px;
+
+        svg {
+            margin-top: -5px;
+            margin-left: 0px;
+        }
+    }
+
 
     &-icon {
         fill: $social-icon;

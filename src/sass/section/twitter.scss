@@ -1,5 +1,5 @@
 .twitter {
-    padding: 37px 0;
+    padding: 37px 0 38px;
     background-color: $active-color;
     color: $white;
 
@@ -13,5 +13,8 @@
         display: flex;
         justify-content: center;
         font-size: 14px;
+        margin-top: 6px;
+        margin-left: -9px;
+        letter-spacing: -0.7px;
     }
 }

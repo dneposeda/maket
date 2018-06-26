@@ -1,5 +1,6 @@
 .news {
     margin-bottom: 30px;
+    padding-top: 3px;
 
     &__short-list {
         padding: 0;
@@ -10,7 +11,11 @@
         list-style: none;
         display: flex;
         align-items: flex-start;
-        margin-bottom: 47px;
+        margin-bottom: 44px;
+    }
+
+    &__post {
+        width: 100%;
     }
 
     &__post-text {
@@ -19,6 +24,8 @@
         line-height: 1.5;
         color: $white;
         margin-bottom: 7px;
+        letter-spacing: 0.2px;
+        max-width: 95%;
     }
 
     &__post-date {
@@ -31,7 +38,8 @@
     }
 
     &__img-wrap {
-        margin-right: 10px;
+        margin-right: 14px;
+        padding-top: 3px;
     }
 
 }
