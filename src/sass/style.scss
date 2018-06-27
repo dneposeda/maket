@@ -1,19 +1,28 @@
 ﻿@import "variables/colors.scss";
 @import "variables/fonts.scss";
+
 @import "layout/main.scss";
-@import "components/form.scss";
-@import "components/socials.scss";
-@import "components/service-card.scss";
-@import "components/news.scss";
-@import "components/menu.scss";
+
+@import "components/btn.scss";
 @import "components/contact.scss";
-@import "section/header.scss";
+@import "components/form.scss";
+@import "components/menu.scss";
+@import "components/news.scss";
+@import "components/service-card.scss";
+@import "components/slider.scss";
+@import "components/socials.scss";
+
+@import "section/address.scss";
+@import "section/excellence.scss";
 @import "section/experts.scss";
+@import "section/footer.scss";
+@import "section/header.scss";
 @import "section/service-core.scss";
 @import "section/service.scss";
 @import "section/twitter.scss";
-@import "section/footer.scss";
-@import "section/address.scss";
+@import "section/values.scss";
+
+
 
 
 

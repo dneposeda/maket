@@ -1,0 +1,41 @@
+.logo {
+    width: 195px;
+    margin-left: 0;
+
+    &__img {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+
+.header {
+    background-image: url(../assets/img/bg-main.jpg);
+    background-repeat: no-repeat;
+    background-position: -204px 0px;
+    height: 976px;
+    padding-top: 59px; 
+}
+
+
+.header__menu {
+    display: flex;
+}
+
+.header__menu-right {
+    margin-left: auto;
+    margin-right: -21px;
+}
+
+.menu__link--white {
+    color: $white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'montserrat';
+    font-weight: 600;
+    padding: 10px 31px;
+}
+
+
+
