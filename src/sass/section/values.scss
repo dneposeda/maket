@@ -139,11 +139,59 @@
     
 }
 
-
-
 .values__img-wrap {
     position: relative;
     height: 624px;
 
 }
+
+
+@media (max-width: 1200px) {
+    .values__graph {
+        height: 417px;
+    }
+
+    .values__graph-value--1 {
+        top: -46px;
+        left: 6px;
+
+        &:before {
+            top: 82px;
+        }
+
+        &:after {
+            top: 90px;
+            width: 90px;
+            right: 14px;
+        }
+    }
+
+    .values__graph-value--2 {
+        bottom: 68px;
+        left: 54px;
+    }
+
+    .values__graph-value--3 {
+        bottom: 203px;
+        right: -11px;
+    }
+
+    .values__graph-value--num {
+        top: 56px;
+        left: 30px;
+    }
+
+    .values__company-subtitle {
+        top: 92px;
+        right: 253px;
+    }
+ 
+    .values__company {
+        top: 58px;
+        right: 178px;
+    }
+
+}
+
+
 

@@ -27,3 +27,28 @@
 
 
 
+
+.menu__humberger {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    position: absolute;
+    padding-top: 40px;
+    top: 0px;
+    right: 0;
+    border-top-right-radius: 25px;
+    z-index: 5;
+    display: none;
+
+    &--active {
+        display: block;
+    }
+
+    a {
+        color: #222;
+        padding: 15px 70px;
+    }
+}
+
+
+

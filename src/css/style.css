@@ -47,7 +47,7 @@ body {
   .container {
     max-width: 1176px; } }
 
-.col-lg-4, .col-xl-4, .col-lg-8 {
+.col-lg-4, .col-xl-4, .col-lg-8, .col-xl-8 {
   padding-right: 5px;
   padding-left: 5px; }
 
@@ -167,6 +167,23 @@ body {
     color: #6b6b6b; }
   .menu__link--mr {
     margin-right: -3px; }
+
+.menu__humberger {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  position: absolute;
+  padding-top: 40px;
+  top: 0px;
+  right: 0;
+  border-top-right-radius: 25px;
+  z-index: 5;
+  display: none; }
+  .menu__humberger--active {
+    display: block; }
+  .menu__humberger a {
+    color: #222;
+    padding: 15px 70px; }
 
 .news {
   margin-bottom: 30px;
@@ -382,7 +399,10 @@ a {
   margin-right: -11px;
   padding-left: 36px;
   padding-top: 113px;
-  text-align: justify; }
+  text-align: justify;
+  background-image: url(../assets/img/bg-poligon.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom; }
 
 .excellence__info {
   text-transform: uppercase;
@@ -408,7 +428,8 @@ a {
 
 .excellence__list {
   padding: 120px 0 112px 4px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  box-shadow: 5px 5px 50px 0px rgba(173, 173, 173, 0.32); }
 
 .excellence__title {
   text-transform: uppercase;
@@ -435,6 +456,24 @@ a {
   bottom: 26px;
   left: 0;
   text-align: left; }
+
+@media (max-width: 1200px) {
+  .excellence__block-info {
+    margin-right: 0;
+    padding-right: 37px;
+    padding-left: 25px;
+    padding-top: 73px; }
+  .excellence__list {
+    padding: 80px 0 42px 4px; } }
+
+@media (max-width: 992px) {
+  .excellence__block-info {
+    background-position: right bottom; }
+  .excellence__info {
+    max-width: 524px; }
+  .excellence__info-text {
+    margin: 0 0 93px;
+    max-width: 482px; } }
 
 .experts {
   padding: 88px 0 121px;
@@ -564,7 +603,7 @@ a {
 .header {
   background-image: url(../assets/img/bg-main.jpg);
   background-repeat: no-repeat;
-  background-position: -204px 0px;
+  background-position: center;
   height: 976px;
   padding-top: 59px; }
 
@@ -582,6 +621,58 @@ a {
   font-family: 'montserrat';
   font-weight: 600;
   padding: 10px 31px; }
+
+@media (max-width: 1200px) {
+  .menu__link--white {
+    font-size: 15px;
+    padding: 16px 18px; }
+  .slider {
+    padding-top: 128px; }
+  .header {
+    height: 839px; } }
+
+@media (max-width: 992px) {
+  .header__menu-right {
+    display: none; }
+  .header__humberger {
+    position: absolute;
+    top: -8px;
+    right: 20px; }
+  .menu-btn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    z-index: 10; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after {
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    left: 50%;
+    margin-left: -10px;
+    width: 20px;
+    height: 2px;
+    background-color: #222; }
+  .menu-btn span::before {
+    content: '';
+    display: block;
+    transition: 0.2s;
+    transform: translateY(-5px); }
+  .menu-btn span::after {
+    content: '';
+    display: block;
+    transition: 0.2s;
+    transform: translateY(5px); }
+  .menu-btn--active span:before {
+    transform: rotate(-45deg);
+    transform-origin: center; }
+  .menu-btn--active span:after {
+    transform: rotate(45deg);
+    transform-origin: center; }
+  .menu-btn--active span {
+    height: 0; } }
 
 .service-core {
   padding: 142px 0 92px;
@@ -809,5 +900,33 @@ a {
 .values__img-wrap {
   position: relative;
   height: 624px; }
+
+@media (max-width: 1200px) {
+  .values__graph {
+    height: 417px; }
+  .values__graph-value--1 {
+    top: -46px;
+    left: 6px; }
+    .values__graph-value--1:before {
+      top: 82px; }
+    .values__graph-value--1:after {
+      top: 90px;
+      width: 90px;
+      right: 14px; }
+  .values__graph-value--2 {
+    bottom: 68px;
+    left: 54px; }
+  .values__graph-value--3 {
+    bottom: 203px;
+    right: -11px; }
+  .values__graph-value--num {
+    top: 56px;
+    left: 30px; }
+  .values__company-subtitle {
+    top: 92px;
+    right: 253px; }
+  .values__company {
+    top: 58px;
+    right: 178px; } }
 
 /*# sourceMappingURL=style.css.map */
